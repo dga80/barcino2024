@@ -761,10 +761,12 @@ header{
 }
 
 .slider-area{
-    background-image: url("../img/banner-img6.png");
+    background-image: url("../img/banner-img7.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 76vh;
+    background-position:center -90px; 
+
 }
 
 .slider-area{
@@ -981,9 +983,10 @@ figure.about-image.hover .curl {
 ====================================== */
 
 .about-boxes .about-box {
+    color: #77143c;
     transition: .5s linear;
     text-align: center;
-    background: #181a1f;
+    background: #debf7c;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     padding: 70px 30px;
     max-width: 350px;
@@ -1007,10 +1010,10 @@ figure.about-image.hover .curl {
     transition: .5s ease;
 }
 
-.about-boxes .about-box:hover  {
-    /*transform: translate(0,-13px);*/
-    /*transition: .5s linear;*/
-}
+.about-boxes .about-box:hover  { 
+    transform: translate(0,-13px);
+    /* transition: .5s linear; */
+ }
 
 .about-media {
     position: relative;
@@ -1029,12 +1032,12 @@ figure.about-image.hover .curl {
     transform: translateY(calc(100% - 0px));
     width: 100%;
     height: 100%;
-    background: #debf7c;
+    /* background: #450820; */
     transition: transform .25s ease-out;
 }
 
 .about-box:hover i {
-    color: #debf7c;
+    color: #450820;
     transition: .5s ease;
 }
 
