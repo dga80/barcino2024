@@ -1555,12 +1555,12 @@ figure.about-image.hover .curl {
     font-family: Montserrat ,sans-serif;
     font-weight: 500    ;
     font-size: 30px;
-    color: #ffffff;
+    color: #77143c;
     line-height: 1.5;
 }
 
 .counter-content p {
-    color: #ffffff;
+    color: #77143c;
     font-size: 16px;
     line-height: 1.6;
     opacity: .7;
@@ -1577,7 +1577,7 @@ figure.about-image.hover .curl {
 }
 
 .parallax-box:hover i, .parallax-box:hover h2 {
-    color: #debf7c;
+    color: #ffffff;
     cursor: default;
     transition: .5s ease;
 }
@@ -1585,9 +1585,11 @@ figure.about-image.hover .curl {
 .parallax-box i{
     font-size: 42px;
     transition: .5s ease;
+    color: #77143c;
 }
 
 .parallax-box h2{
+    color: #77143c;
     font-size: 30px;
     margin-bottom: 10px;
     margin-top: 30px;
@@ -1599,7 +1601,7 @@ figure.about-image.hover .curl {
 .parallax-box h5{
     font-weight: normal;
     font-size: 16px;
-    color: #ffffff;
+    color: #77143c;
     opacity: .7;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -1850,6 +1852,7 @@ figure.about-image.hover .curl {
     display: block;
     text-align: center;
     margin: 0 auto;
+    color: #debf7c
 }
 
 .contact-form .form-control {
