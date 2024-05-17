@@ -147,7 +147,7 @@ li{list-style: none;text-decoration: none;}
 section{padding: 7.5rem 0;}
 .padding-bottom {padding-bottom: 7.5rem;}
 .padding-top {padding-top: 7.5rem;}
-.padding-bottom-half {padding-bottom: 5rem;}
+.padding-bottom-half {padding-bottom: 2rem;}
 
 /* overlay */
 .bg-overlay{position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
@@ -982,10 +982,10 @@ figure.about-image.hover .curl {
 ====================================== */
 
 .about-boxes .about-box {
-    color: #77143c;
+    color: #debf7c;
     transition: .5s linear;
     text-align: center;
-    background: #debf7c;
+    border-color: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     padding: 70px 30px;
     max-width: 350px;
@@ -1036,7 +1036,7 @@ figure.about-image.hover .curl {
 }
 
 .about-box:hover i {
-    color: #450820;
+    /* color: #450820; */
     transition: .5s ease;
 }
 
@@ -2458,52 +2458,6 @@ figure.about-image.hover .curl {
     }
     .parallax-box {
         padding: 40px 0;
-    }
-
-    /* Review */
-    .testimonial  {text-align: center;}
-    .testimonial .h1, .testimonial h1 {font-size: 36px;}
-    .testimonial .h2, .testimonial h2 {font-size: 36px;}
-    .testimonial .h3, .testimonial h3 {font-size: 24px;}
-    .testimonial p {
-        font-size: 14px;
-        line-height: 20px;
-    }
-    .testimonial .paragraph {
-        font-size: 14px;
-    }
-
-    /* Pricing */
-    .pricing  {
-        text-align: center;
-    }
-    .pricing .padding-bottom {
-        padding-bottom: 4.5rem;
-    }
-    .pricing .heading-area .sub-heading {
-        font-size: 14px;
-    }
-    .pricing .heading-area .heading {
-        font-size: 26px;
-    }
-    .pricing .heading-area .text {
-        font-size: 14px;
-    }
-    .pricing .btn.btn-medium {
-        font-size: 14px;
-    }
-    .pricing .price-margin {
-        margin: 50px 0;
-    }
-
-    /* Blog */
-    .blog .blog-img {
-        width: 100%;
-        margin-top: 80px;
-    }
-    .blog .right-text {
-        justify-content: center;
-        text-align: center!important;
     }
 
     /* Google Map */
