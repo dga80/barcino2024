@@ -2584,7 +2584,10 @@ figure.about-image.hover .curl {
         font-size: 26px;
     }
     .about .main-title p {
+        text-align: justify;
         font-size: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .about ul li {
         font-size: 15px;
@@ -2741,7 +2744,7 @@ figure.about-image.hover .curl {
     }
 }
 
-@media screen and (max-width: 575px) {
+/* @media screen and (max-width: 575px) {
 
     body {
         text-align: center;
@@ -2753,7 +2756,6 @@ figure.about-image.hover .curl {
         margin: 4px 0;
     }
 
-    /* Banner */
     .slider-area h4 {
         font-size: 14px;
     }
@@ -2761,7 +2763,6 @@ figure.about-image.hover .curl {
         font-size: 36px;
     }
 
-    /* About */
     .about .main-title h2 {
         font-size: 24px;
     }
@@ -2769,25 +2770,21 @@ figure.about-image.hover .curl {
         padding: 0;
     }
 
-    /* Team */
     .team-sec .main-title h5 {
         line-height: 1;
         margin-bottom: 1rem;
     }
 
-    /* Review */
     .testimonial .h1, .testimonial h1 {
         font-size: 30px;
     }
 
-    /* Pricing */
     .pricing .heading-area .heading {
         font-size: 24px;
     }
 
-    /* Blog */
     .blog h2 {
         text-align: center;
         font-size: 26px;
     }
-}
+} */
