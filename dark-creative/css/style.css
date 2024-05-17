@@ -2335,7 +2335,7 @@ figure.about-image.hover .curl {
         width: 40%;
     }
 }
-
+/* 
 @media screen and (max-width: 1199px) {
     .team-sec h1, .team-sec .h1 {
         font-size: 3.56rem;
@@ -2355,13 +2355,12 @@ figure.about-image.hover .curl {
     .team-sec .team-classic-content {
         padding: 59px 20px;
     }
-}
+} */
 
-@media screen and (max-width: 991px) and (min-width: 768px){
+/* @media screen and (max-width: 991px) and (min-width: 768px){
     .heading-area .heading {
         font-size: 36px;
     }
-    /* Navbar */
     .banner-icons{
         display: none;
     }
@@ -2369,7 +2368,6 @@ figure.about-image.hover .curl {
         position: relative;
     }
 
-    /* Side Menu */
     .sidemenu_btn {
         right: -15px;
     }
@@ -2377,12 +2375,10 @@ figure.about-image.hover .curl {
         width: 60%;
     }
 
-    /* Banner */
     .slider-area h4 {
         font-size: 26px;
     }
 
-    /* About */
     .about .about-img-small {
         margin: 60px 0 0 0;
     }
@@ -2390,7 +2386,6 @@ figure.about-image.hover .curl {
         padding: 0;
     }
 
-    /* Team */
     .team-sec h1, .team-sec .h1 {
         font-size: 2.95rem;
     }
@@ -2404,7 +2399,6 @@ figure.about-image.hover .curl {
         font-size: 1.125rem;
     }
 
-    /* Counter */
     .counter-content span {
         font-size: 14px;
     }
@@ -2421,11 +2415,9 @@ figure.about-image.hover .curl {
         font-size: 22px;
     }
 
-    /* Review */
     .testimonial .h1, .testimonial h1 {font-size: 58px;}
     .testimonial .h3, .testimonial h3 {font-size: 32px;}
 
-    /* Pricing */
     .pricing .heading-area .heading {
         font-size: 34px;
     }
@@ -2444,7 +2436,6 @@ figure.about-image.hover .curl {
         margin-right: auto;
     }
 
-    /* Blog */
     .blog {
         text-align: center;
     }
@@ -2460,7 +2451,6 @@ figure.about-image.hover .curl {
         text-align: center!important;
     }
 
-    /* Standalone */
     .standalone-detail {
         padding-bottom: 70px;
     }
@@ -2500,7 +2490,7 @@ figure.about-image.hover .curl {
     .author-content {
         padding: 0;
     }
-}
+} */
 
 @media screen and (max-width: 767px) {
 
