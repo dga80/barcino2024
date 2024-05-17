@@ -1,1 +1,9 @@
-/*-- Use For Custom Styling --*/
+.btn-custom-outline {
+        border: 2px solid white;
+        background-color: transparent;
+        color: white;
+    }
+.btn-custom-outline:hover {
+        background-color: white;
+        color: black;
+    }

@@ -2579,6 +2579,12 @@ figure.about-image.hover .curl {
     .slider-area h2 {
         font-size: 40px;
     }
+    .slider-area {
+        background-size: cover;
+        background-position: -400px -50px;
+        background-size: 250%;
+        height: 60vh;
+    }
 
     /* About */
     .about .main-title h5 {
