@@ -257,7 +257,7 @@ header{
 .line:after {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    border: 2px solid rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
     bottom: 0;
     content: " ";
     display: block;
@@ -529,7 +529,7 @@ header{
     background: #fff;
     display: inline-block;
     width: 0;
-    height: 3px;
+    height: 2px;
     bottom: 0; left: 0;
     overflow: hidden;
     -webkit-transition: all 0.5s cubic-bezier(0, 0, 0.2, 1);
@@ -2123,6 +2123,9 @@ figure.about-image.hover .curl {
     .side-menu p {
         font-size: 14px;
     }
+    section {
+        padding: 6rem 0;
+    }
 }
 
 @media (max-width: 1200px) and (min-width: 992px) {
@@ -2137,6 +2140,9 @@ figure.about-image.hover .curl {
     }
     .side-menu {
         width: 40%;
+    }
+    section {
+        padding: 3rem 0;
     }
 }
 /* 
@@ -2302,7 +2308,7 @@ figure.about-image.hover .curl {
         text-align: center;
     }
     section {
-        padding: 6rem 0;
+        padding: 3rem 0;
     }
     .heading-area .sub-heading {
         font-size: 14px;
