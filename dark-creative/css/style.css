@@ -982,12 +982,13 @@ figure.about-image.hover .curl {
 ====================================== */
 
 .about-boxes .about-box {
-    color: #debf7c;
+    color: #77143c;
+    background-color: #debf7c;
     transition: .5s linear;
     text-align: center;
     border-color: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    padding: 70px 30px;
+    padding: 30px 30px;
     max-width: 350px;
 }
 
