@@ -7,3 +7,11 @@
         background-color: white;
         color: black;
     }
+    
+.products-heading{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
