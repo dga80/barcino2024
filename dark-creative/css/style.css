@@ -2311,6 +2311,9 @@ figure.about-image.hover .curl {
     section {
         padding: 6rem 0;
     }
+    .get-to-know-title {
+        margin-top: -100px;
+    }
     .heading-area .sub-heading {
         font-size: 14px;
     }
