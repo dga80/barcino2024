@@ -2127,7 +2127,19 @@ figure.about-image.hover .curl {
     section {
         padding: 6rem 0;
     }
+    .logo-size {
+        max-width: 180px;
+        height: auto;
+    }
 }
+@media (min-width: 992px) {
+    .logo-size {
+        max-width: 150px; /* Ajusta este valor según sea necesario */
+        height: auto;
+    }
+}
+
+
 
 @media (max-width: 1200px) and (min-width: 992px) {
     .counter-content h3, .counter-content h3 span {
@@ -2144,6 +2156,10 @@ figure.about-image.hover .curl {
     }
     section {
         padding: 3rem 0;
+    }
+    .logo-size {
+        max-width: 180px;
+        height: auto;
     }
 }
 /* 
@@ -2336,6 +2352,10 @@ figure.about-image.hover .curl {
         top: -30px;
         display: block;
         position: relative;
+    }
+    .logo-size {
+        max-width: 180px;
+        height: auto;
     }
     .sidemenu_btn {
         right: 0;
