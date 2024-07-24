@@ -15,3 +15,11 @@
     margin-bottom: 30px;
     font-family: 'Montserrat', sans-serif;
 }
+.invisible-space {
+    height: 30px;
+    width: auto;
+    background-color: transparent;
+}
+.fake-a {
+    color: #77143c;
+}

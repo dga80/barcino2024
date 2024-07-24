@@ -346,9 +346,9 @@
             </div>
             <div class="col-12 filers">
                 <div id="js-filters-full-width" class="cbp-l-filters-alignCenter">
-                    <div data-filter="*" class="cbp-filter-item-active cbp-filter-item rounded-pill">
+                    <!-- <div data-filter="*" class="cbp-filter-item-active cbp-filter-item rounded-pill">
                         All<div class=""></div>
-                    </div>
+                    </div> -->
                     <div data-filter=".pork" class="cbp-filter-item-active cbp-filter-item rounded-pill">
                         Pork<div class=""></div>
                     </div>
@@ -365,6 +365,10 @@
             </div>
         </div>
         <div id="js-grid-masonry" class="cbp">
+            <div class="cbp-item pork"><p>From Jamon Iberico to Spanish chorizo, Spain is famous for its pork products. Barcino Meats certainly doesn’t let the side down! We make it a priority to ensure that our suppliers provide us with pork from pigs that have received only the highest welfare standards. As well as our range of freshly butchered pork, we also offer a selection of frozen pork. To find our full product range, call us on +34 681 254 207.</p><p class="fake-a">A</p></div>
+            <div class="cbp-item beef"><p>Tried and tested by our loyal customers, our beef products are always in high demand. Expertly cut, our beef range is a combination of traditionally butchered joints, as well as new and innovative cuts. To see our full product range, give us a call on +34 681 254 207.</p><p class="fake-a">A</p></div>
+            <div class="cbp-item turkey"><p>Traditionally only a seasonally popular meat, turkey can be hard and unreliable for small businesses to source year-round. Here at Barcino Meats, we have dependable, well-founded relationships with farmers all over the Spanish and South African countryside that provide turkeys of the highest quality officially and consistently.</p><p class="fake-a">A</p></div>
+            <div class="cbp-item chicken"><p>With numbers in Spanish agriculture/farming sectors quickly rising, Barcino Meats are at the forefront of the farming revolution! By sourcing our chickens from farms founded in the Spanish and Chilean countryside, we support the prosperity of our suppliers, as well as provide great tasting products for our customers.</p><p class="fake-a">A</p></div>
             <div class="cbp-item pork">
                 <a href="vendor/img/elements-img/portfolio-img/portfolio-img-8/p-1.png" class="cbp-caption cbp-lightbox" data-title="Pork<br>lorem ipsum">
                     <div class="cbp-caption-defaultWrap">
@@ -631,7 +635,7 @@
     $('#js-grid-masonry').cubeportfolio({
         filters: '#js-filters-full-width',
         layoutMode: 'mosaic',
-        defaultFilter: '*',
+        defaultFilter: '.pork',
         animationType: 'slideDelay',
         gapHorizontal: 10,
         gapVertical: 10,
